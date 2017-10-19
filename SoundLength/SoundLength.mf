@@ -1,0 +1,2 @@
+Main-Class: SoundLength
+Class-Path: lib/jaudiotagger-2.2.6-SNAPSHOT.jar
