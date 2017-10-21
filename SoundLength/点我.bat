@@ -7,4 +7,3 @@ rem 忽略路径
 set subPath=E:\avg\game_5th_cn\trunk\br_cn_client\Documents\
 java -jar SoundLength.jar %dirPath% %luaPath% %subPath%
 pause
-cmd
