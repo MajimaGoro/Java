@@ -15,7 +15,9 @@ public class SoundLength {
             MP3AudioHeader audioHeader = (MP3AudioHeader)f.getAudioHeader();
             return audioHeader.getTrackLength();    
         } catch(Exception e) {
+            System.out.println(file.getName());
             e.printStackTrace();
+            return -1;
         }
     }
 

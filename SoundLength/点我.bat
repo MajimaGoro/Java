@@ -1,16 +1,10 @@
-rem javac -encoding UTF-8 -classpath ./lib/jaudiotagger-2.2.6-SNAPSHOT.jar SoundLength.java
-rem pause
-rem java -classpath ./lib/jaudiotagger-2.2.6-SNAPSHOT.jar SoundLength
-rem pause
-rem cmd
+echo off
 rem MP3文件路径
-set dirPath="E:\\Code\\Java\\SoundLength\\sound\\"
+set dirPath=E:\avg\game_5th_cn\trunk\br_cn_client\Documents\sound\
 rem lua路径
-set luaPath="E:\\Code\\Java\\SoundLength\\SoundLength.lua"
+set luaPath=E:\Algorithms\Java\SoundLength\SoundLength.lua
 rem 忽略路径
-set subPath="E:\\Code\\Java\\SoundLength\\"
-javac -encoding UTF-8 SoundLength.java
-pause
-java SoundLength %dirPath% %luaPath% %subPath%
+set subPath=E:\avg\game_5th_cn\trunk\br_cn_client\Documents\
+java -jar SoundLength.jar %dirPath% %luaPath% %subPath%
 pause
 cmd
